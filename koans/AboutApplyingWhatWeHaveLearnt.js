@@ -94,7 +94,6 @@ describe("About Applying What We Have Learnt", function() {
     _.map(products, function(el){
       _.map(el.ingredients, function(i){
         ingredientCount[i] = (ingredientCount[i] || 0) + 1;
-        console.log(ingredientCount);
       })
     })
 

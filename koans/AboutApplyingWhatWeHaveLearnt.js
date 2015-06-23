@@ -44,7 +44,7 @@ describe("About Applying What We Have Learnt", function() {
         return el.containsNuts === false;
       });
 
-      var productsICanEat = _.filter(productsICanEat, function(el){
+      productsICanEat = _.filter(productsICanEat, function(el){
         return _.all(el.ingredients, function(i){
           return i !== "mushrooms";
           })
